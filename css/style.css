@@ -1,0 +1,63 @@
+
+/*............................Global Style Section.......................*/
+*{
+    box-sizing: border-box;
+    font-family: "Arial", Times, serif;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*.............................Header Section..............................*/
+#headSection{
+    border: 2px solid red;
+}
+.main_Header{
+    width: 100%;
+    background-color: rgb(52, 52, 197);
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.header_Content h1{
+    color: aliceblue;
+    font-size: 65px;
+    line-height: 70px;   
+}
+
+.banner_Image{
+    width: 100%;
+    
+}
+
+.banner_Image img{
+    width: 85%;
+    
+}
+
+/*.....................Button Design..........*/
+.red_Button{
+    background-color: rgb(209, 52, 52);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 1px solid red;
+}
+.red_Button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(236, 237, 238);
+    
+}
+.red_Button i{
+    margin-left: 10px;
+    font-size: 12px;
+}
