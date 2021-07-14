@@ -82,6 +82,14 @@ body{
     font-size: 12px;
 }
 
+.red_Button:hover{
+    transition: 1s;
+    background-color: rgb(10, 92, 92);
+    border-radius: 15%;
+    box-shadow: 0px 10px 50px rgba(188, 192, 189, 0.4);
+    
+}
+
 
 
 /*................................Article or Main-Body Section.........................*/
@@ -150,6 +158,52 @@ body{
 
 
 
+/*.......................................Registration Form..............................*/
+.registration_Form{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    padding: 5% 10%;
+}
+.ref_image img{
+    width: 70%;
+    margin: 15% 5%;
+}
+
+.form{
+    width: 80%;
+    padding: 2% 5%;
+    
+}
+.form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.form input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
 /*..........................................Footer Section...............................*/
 .footer_area{
     width: 100%;
@@ -181,6 +235,7 @@ body{
 .footer_content p{
     font-size: 14px;
 }
+
 
 
 
@@ -294,6 +349,16 @@ body{
         height: 100%;
     }
 
+    /*........................Registration Form.....................*/
+    .registration_Form{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+    }
 
 
     /*.........................Footer Section......................*/
