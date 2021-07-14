@@ -123,9 +123,8 @@ body{
 
 /*..........................................Footer Section...............................*/
 .footer_area{
-    border: 2px solid red;
     width: 100%;
-    padding: 2% 10% 0% 10%;
+    padding: 2% 10% 2% 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,4 +136,19 @@ body{
 }
 .footer_logo img{
     width: 80%;
+}
+.footer_icons a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+}
+.footer_icons i{
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 100%;
+    background-color: rgb(211, 204, 204);
+}
+
+.footer_content p{
+    font-size: 14px;
 }
