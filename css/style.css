@@ -83,12 +83,19 @@ body{
     background-color: rgb(255, 255, 255);
     border: 5px solid white;
     border-radius: 3px;
-    box-shadow: -15px -15px 15px #f3efe8;
+    box-shadow: 0px 8px 40px rgba(0,0,0,0.2);
     
 }
 .player_photo img{
     width: 100%;
 
+}
+.details h1{
+    color: rgb(36, 35, 35);
+}
+.details p{
+    line-height: 22px;
+    color: rgb(48, 43, 43);
 }
 
 
@@ -222,10 +229,11 @@ body{
     
         width: 100%;
         padding: 2%;
+        margin-bottom: 10%;
         background-color: rgb(255, 255, 255);
         border: 5px solid white;
         border-radius: 3px;
-        box-shadow: -15px -15px 15px #f3efe8;
+        box-shadow: 0px 8px 40px rgba(0,0,0,0.2);
     
     }
     .player_photo img{
