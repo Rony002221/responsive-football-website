@@ -42,7 +42,9 @@ body{
     
 }
 
-/*.....................Button Design..........*/
+
+
+/*.....................Button Design.......................*/
 .red_Button{
     background-color: rgb(224, 39, 39);
     border: none;
@@ -151,4 +153,130 @@ body{
 
 .footer_content p{
     font-size: 14px;
+}
+
+
+
+
+
+
+/*################################################################################*/
+
+/************** Use of Media Query For Responsive Mobile View *******************/
+
+/*#################################################################################*/
+
+@media (max-width:600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /*..........................Header Section.......................*/
+    .main_Header{
+        width: 100%;
+        background-color: rgb(52, 52, 197);
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header_Content h1{
+        color: aliceblue;
+        font-size: 50px;
+        line-height: 50px;   
+    }
+
+    .banner_Image{
+        width: 100%;
+    
+    }
+
+    .banner_Image img{
+        width: 100%;
+        padding: 5%;
+    
+    }
+
+    .red_Button{
+        margin-bottom: 15%;
+    }
+
+
+    /*..........................Article or Main-Body Section.....................*/
+    .main_Body{
+        height: auto;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    
+    }
+    .main_Body .player_detail{
+    
+        width: 100%;
+        padding: 2%;
+        background-color: rgb(255, 255, 255);
+        border: 5px solid white;
+        border-radius: 3px;
+        box-shadow: -15px -15px 15px #f3efe8;
+    
+    }
+    .player_photo img{
+        width: 100%;
+
+    }
+
+
+
+
+
+    /*...............................Highlight Section.....................................*/
+    .highlight{
+    
+        height: auto;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    
+    }
+
+    .highlight_details{
+        padding: 1% 5%;
+    }
+    .highlight_details h1{
+        font-size: 30px;
+    }
+    .highlight_details p{
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .highlight_image img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    /*.........................Footer Section......................*/
+
+    .footer_logo{
+        width: 80%;
+    }
+    .footer_logo img{
+        width: 90%;
+    }
+
+
+
+
 }
