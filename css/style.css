@@ -8,14 +8,12 @@ body{
 
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
 
 
 /*.............................Header Section..............................*/
-#headSection{
-    border: 2px solid red;
-}
 .main_Header{
     width: 100%;
     background-color: rgb(52, 52, 197);
@@ -46,7 +44,7 @@ body{
 
 /*.....................Button Design..........*/
 .red_Button{
-    background-color: rgb(209, 52, 52);
+    background-color: rgb(224, 39, 39);
     border: none;
     padding: 10px 20px;
     border-radius: 1px solid red;
@@ -60,4 +58,83 @@ body{
 .red_Button i{
     margin-left: 10px;
     font-size: 12px;
+}
+
+
+
+/*................................Article or Main-Body Section.........................*/
+.main_Body{
+    height: auto;
+    padding: 5% 10% 15% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 2%;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.main_Body .player_detail{
+    
+    width: 90%;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid white;
+    border-radius: 3px;
+    box-shadow: -15px -15px 15px #f3efe8;
+    
+}
+.player_photo img{
+    width: 100%;
+
+}
+
+
+
+/*...............................Highlight Section.....................................*/
+.highlight{
+    
+    height: auto;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.highlight_details{
+    padding: 5%;
+}
+.highlight_details h1{
+    font-size: 40px;
+}
+.highlight_details p{
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.highlight_image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*..........................................Footer Section...............................*/
+.footer_area{
+    border: 2px solid red;
+    width: 100%;
+    padding: 2% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer_logo{
+    width: 40%;
+}
+.footer_logo img{
+    width: 80%;
 }
