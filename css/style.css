@@ -42,6 +42,26 @@ body{
     
 }
 
+.main_Header:hover img{
+
+    transition: 2s;
+    transform: scale(1.1) skew(-10deg);
+}
+.main_Header:hover {
+
+    transition: 1s;
+    background-color: rgb(63, 151, 122);
+}
+.main_Header:hover .red_Button {
+
+    transition: 2s;
+    background-color: #42275a;
+    padding: 3%;
+    margin-left: 40%;
+    border-radius: 30%;
+    box-shadow: 0px 10px 50px rgba(188, 192, 189, 0.4);
+}
+
 
 
 /*.....................Button Design.......................*/
@@ -213,6 +233,7 @@ body{
         margin-bottom: 15%;
     }
 
+    
 
     /*..........................Article or Main-Body Section.....................*/
     .main_Body{
